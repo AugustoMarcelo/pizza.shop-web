@@ -85,7 +85,7 @@ export function OrderTableFilters() {
   return (
     <form
       onSubmit={handleSubmit(handleFilter)}
-      className="flex items-center gap-2"
+      className="flex flex-col items-stretch gap-2 md:flex-row md:items-center"
     >
       <span className="text-sm font-semibold">Filtros:</span>
       <Input
